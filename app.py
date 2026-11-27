@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 st.set_page_config(page_title="Salary Prediction",layout="centered")
 
-model=joblib.load("Salary_training_model.pkl")
+model = joblib.load("salary_training_model.pkl")
 st.title("Salary Prediction App")
 
 st.write("predict the salary based on years of professional experience")
